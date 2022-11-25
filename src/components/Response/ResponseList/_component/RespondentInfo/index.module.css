@@ -1,0 +1,10 @@
+.Respondent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+}
+.Respondent svg{
+    font-size: 30px;
+    margin-left: 12px;
+}

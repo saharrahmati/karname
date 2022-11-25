@@ -1,0 +1,38 @@
+.Details {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+.Clock {
+    padding-left: 10px;
+    border-left: 1px solid #777777;
+}
+.Clock span:first-child {
+    color: #777777;
+}
+.Date {
+    padding-right: 10px;
+}
+.Date span:first-child {
+    color: #777777;
+}
+.FaGrin {
+    margin-right: 10px;
+}
+.FaGrin svg{
+    color: #9CAEBB;
+}
+.FaGrin span:last-child {
+    color: #777777;
+    padding-right: 5px;
+}
+.FaFrown {
+    margin-right: 10px;
+}
+.FaFrown svg{
+    color: #9CAEBB;
+}
+.FaFrown span:last-child {
+    color: #777777;
+    padding-right: 5px;
+}

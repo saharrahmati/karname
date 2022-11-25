@@ -3,7 +3,7 @@ import classes from './index.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCommentDots} from '@fortawesome/free-solid-svg-icons'
 
-function Details () {
+function QuestionDetails () {
     return(
         <div className={classes.Details}>
             <div className={classes.Clock}>
@@ -22,4 +22,4 @@ function Details () {
     )
 }
 
-export default Details
+export default QuestionDetails
