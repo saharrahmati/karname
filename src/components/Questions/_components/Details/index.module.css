@@ -1,0 +1,28 @@
+.Details {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+.Clock {
+    padding-left: 10px;
+    border-left: 1px solid #777777;
+}
+.Clock span:first-child {
+    color: #777777;
+}
+.Date {
+    padding-right: 10px;
+}
+.Date span:first-child {
+    color: #777777;
+}
+.Comments {
+    margin-right: 10px;
+}
+.Comments svg{
+    color: #9CAEBB;
+}
+.Comments span:last-child {
+    color: #777777;
+    padding-right: 5px;
+}
