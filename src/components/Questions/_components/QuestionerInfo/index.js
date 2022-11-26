@@ -4,11 +4,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUserCircle } from '@fortawesome/free-solid-svg-icons'
 
 
-function QuestionerInfo () {
+function QuestionerInfo (props) {
     return(
         <div className={classes.Subject}>
-            <FontAwesomeIcon icon={faUserCircle} className={classes.UserPic}/>
-            <span>مشکل Auth در ری اکت</span>
+            {props.questioner ? <img src={props.questioner} alt="profilePic"/> : <FontAwesomeIcon icon={faUserCircle} className={classes.UserPic}/>}
+            <span>{props.title}</span>
         </div>
     )
 }
