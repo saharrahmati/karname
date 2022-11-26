@@ -32,7 +32,9 @@
             "respondentName":"ترانه علیدوستی",
             "date":"۱۴۰۰/۲/۷",
             "hour":"۱۶:۴۸",
-            "questionId":1
+            "questionId":1,
+            "grinEmoji":4,
+            "frownEmoji":0
         },
         {
             "response":"توی خط ۱۵ و توی متد on چیزی که شما پاس دادی category_roks هست که به نظر میرسه خطای تایپی داشته باشه. اینو چک کردی؟",
@@ -40,14 +42,18 @@
             "respondentName":"سحر رحمتی",
             "date":"۱۴۰۱/۱/۱",
             "hour":"۱۳:۲۶",
-            "questionId":1
+            "questionId":1,
+            "grinEmoji":5,
+            "frownEmoji":0
         },
         {   "response":"با توجه به اسم فایل های migration ها این ترتیب رعایت نشده و به همین دلیل ارور میدهاسم فایل رو تغییر بدید تا جدول category_rocks بالاتر از جدول rocks قرار بگیره و مجدد تست کنید",
             "respondentImg":"/assets/images/p3.jpeg",
             "respondentName":"مونا برزویی",
             "date":"۱۴۰۱/۳/۵",
             "hour":"۲۱:۰۰",
-            "questionId":1
+            "questionId":1,
+            "grinEmoji":6,
+            "frownEmoji":0
         },
         {
             "response":"سلام بستگی به خودت داره چقدر برای نمونه کار بخای وقت بذاری مثلا میتونی از dribbble.com ایده بگیری برای سایتات و بذاری توی گیت هابت برای روزمه",
@@ -55,7 +61,9 @@
             "respondentName":"سیروان خسروی",
             "date":"۱۴۰۰/۴/۷",
             "hour":"۱۲:۴۸",
-            "questionId":2
+            "questionId":2,
+            "grinEmoji":7,
+            "frownEmoji":0
         },
         {
             "response":"حداقل باید اپی بنویسی که با سمت سرور در ارتباط باشه",
@@ -63,7 +71,9 @@
             "respondentName":"همایون شجریان",
             "date":"۱۴۰۱/۲/۱",
             "hour":"۱۷:۲۶",
-            "questionId":2
+            "questionId":2,
+            "grinEmoji":1,
+            "frownEmoji":0
         },
         {
             "response":"کلاس مورد نظر درست کار میکنه در واقع شما دارید میگید تگ h2 اگر از سایز sm که سایز 640 پیکسل هست بزرگ تر شد بیا و رنگ بکگراند اون رو قرمز کن",
@@ -71,14 +81,18 @@
             "respondentName":"صادق هدایت",
             "date":"۱۴۰۱/۴/۱۲",
             "hour":"۱۵:۲۶",
-            "questionId":3
+            "questionId":3,
+            "grinEmoji":2,
+            "frownEmoji":0
         },
         {   "response":"sm کوچکترین نقطه شکسته ولی برای قبل sm هم شما باید یک class تعریف کنید !کدی که در تصویر هست و فرستادید اصلا مشکلی توش نیست چون شما گفتید block اونم حتما display رو مساوی block گذاشته !" ,
             "respondentImg":"/assets/images/p3.jpeg",
             "respondentName":"فردریش نیچه",
             "date":"۱۴۰۱/۶/۲۳",
             "hour":"۲۲:۰۰",
-            "questionId":3
+            "questionId":3,
+            "grinEmoji":3,
+            "frownEmoji":0
         }
     ]
 }

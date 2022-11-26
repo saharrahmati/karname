@@ -5,7 +5,7 @@ import { faGrin } from "@fortawesome/free-solid-svg-icons";
 import {faFrown} from "@fortawesome/free-solid-svg-icons";
 
 function QuestionDetails (props) {
-    const {hour,date} = props
+    const {hour,date,grinEmoji,frownEmoji} = props
     return(
         <div className={classes.Details}>
             <div className={classes.Clock}>
@@ -18,11 +18,11 @@ function QuestionDetails (props) {
             </div>
             <div className={classes.FaGrin}>
                 <FontAwesomeIcon icon={faGrin}/>
-                <span>20</span>
+                <span>{grinEmoji}</span>
             </div>
             <div className={classes.FaFrown}>
                 <FontAwesomeIcon icon={faFrown}/>
-                <span>20</span>
+                <span>{frownEmoji}</span>
             </div>
         </div>
     )

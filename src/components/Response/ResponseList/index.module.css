@@ -32,6 +32,7 @@
     background-color: transparent;
     font-family: Yekan;
     margin-left: 10px;
+    cursor: pointer;
 }
 .GrinBtn svg {
     color: #66CB9F;
@@ -44,6 +45,7 @@
     color: #F16063;
     background-color: transparent;
     font-family: Yekan;
+    cursor: pointer;
 }
 .FrownBtn svg {
     color: #F16063;

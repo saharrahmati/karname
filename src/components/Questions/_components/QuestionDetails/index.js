@@ -1,9 +1,21 @@
-import React from "react";
+import React,{useEffect,useState} from "react";
 import classes from './index.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCommentDots} from '@fortawesome/free-solid-svg-icons'
 
 function QuestionDetails (props) {
+    const [responseLength , setResponseLength]= useState(null)
+    const {question,response,FilterResponse} = props
+
+    const getResponseLength = () => {
+        const filterData= response && response.filter((item)=> item.questionId === question.questionId).length
+        setResponseLength(filterData)
+
+    }
+    useEffect(()=>{
+        getResponseLength() 
+    },[])
+
     return(
         <div className={classes.Details}>
             <div className={classes.Clock}>
@@ -16,7 +28,7 @@ function QuestionDetails (props) {
             </div>
             <div className={classes.Comments}>
                 <FontAwesomeIcon icon={faCommentDots}/>
-                <span>20</span>
+                <span>{FilterResponse && FilterResponse? FilterResponse.length : responseLength}</span>
             </div>
         </div>
     )

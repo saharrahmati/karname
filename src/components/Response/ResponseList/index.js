@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import classes from './index.module.css'
 import RespondentInfo from './_component/RespondentInfo'
 import ResponseDetails from './_component/ResponseDetails'
@@ -7,12 +7,13 @@ import { faGrin } from "@fortawesome/free-solid-svg-icons";
 import {faFrown} from "@fortawesome/free-solid-svg-icons";
 
 function ResponseList (props) {
+
     const {response} = props
     return(
         <>
-            {response && response.map((item)=>{
+            {response && response.map((item,index)=>{
                 return (
-                    <div className={classes.ResponseList}>
+                    <div className={classes.ResponseList} key={index}>
                         <div className={classes.MainBox}>
                             <div className={classes.ResponseNav}>
                                 <RespondentInfo respondentName= {item.respondentName} respondentImg={item.respondentImg}/>
