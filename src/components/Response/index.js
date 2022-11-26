@@ -13,7 +13,7 @@ function Response (){
                     <QuestionDetails />
                 </div>
                 <div className={classes.QuestionDes}>
-                /* سلام من میخوام یه authentication ساده تو react بسازم اما این error رو بهم میده. نمیدونم مشکل از کجاست. عکس خروجی console رو هم گذاشتم که ببینید دقیقا چه مشکلی وجود داره */
+                سلام من میخوام یه authentication ساده تو react بسازم اما این error رو بهم میده. نمیدونم مشکل از کجاست. عکس خروجی console رو هم گذاشتم که ببینید دقیقا چه مشکلی وجود داره 
 
                 </div>
             </div>

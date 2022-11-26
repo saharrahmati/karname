@@ -17,12 +17,12 @@ function ResponseList () {
                 <div className={classes.ResponseDes}>
                     هراد دوجو یلکشم هچ اقیقد دینیبب هک متشاذگ مه ور console یجورخ سکع .تساجک زا لکشم منودیمن .هدیم مهب ور error نیا اما مزاسب react وت هداس authentication هی ماوخیم نم مالس
                 </div>
-                <div>
-                    <button>
+                <div className={classes.BtnResponse}>
+                    <button className={classes.GrinBtn}>
                         <FontAwesomeIcon icon={faGrin}/>
                         <span>پاسخ خوب بود</span>
                     </button>
-                    <button>
+                    <button className={classes.FrownBtn}>
                         <FontAwesomeIcon icon={faFrown}/>
                         <span>پاسخ خوب نبود</span>
                     </button>

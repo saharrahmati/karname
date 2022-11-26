@@ -19,3 +19,33 @@
     padding: 10px 16px;
     text-align: right;
 }
+.BtnResponse{
+    text-align: left;
+    margin:16px;
+    padding-bottom: 16px;
+}
+.GrinBtn {
+    border: 1px solid #E4E9EC;
+    border-radius: 6px;
+    padding: 8px 16px;
+    color: #66CB9F;
+    background-color: transparent;
+    font-family: Yekan;
+    margin-left: 10px;
+}
+.GrinBtn svg {
+    color: #66CB9F;
+    padding-left: 3px;
+}
+.FrownBtn {
+    border: 1px solid #E4E9EC;
+    border-radius: 6px;
+    padding: 8px 16px;
+    color: #F16063;
+    background-color: transparent;
+    font-family: Yekan;
+}
+.FrownBtn svg {
+    color: #F16063;
+    padding-left: 3px;
+}
