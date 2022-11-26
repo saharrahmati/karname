@@ -6,29 +6,36 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGrin } from "@fortawesome/free-solid-svg-icons";
 import {faFrown} from "@fortawesome/free-solid-svg-icons";
 
-function ResponseList () {
+function ResponseList (props) {
+    const {response} = props
     return(
-        <div className={classes.ResponseList}>
-            <div className={classes.MainBox}>
-                <div className={classes.ResponseNav}>
-                    <RespondentInfo />
-                    <ResponseDetails />
-                </div>
-                <div className={classes.ResponseDes}>
-                    هراد دوجو یلکشم هچ اقیقد دینیبب هک متشاذگ مه ور console یجورخ سکع .تساجک زا لکشم منودیمن .هدیم مهب ور error نیا اما مزاسب react وت هداس authentication هی ماوخیم نم مالس
-                </div>
-                <div className={classes.BtnResponse}>
-                    <button className={classes.GrinBtn}>
-                        <FontAwesomeIcon icon={faGrin}/>
-                        <span>پاسخ خوب بود</span>
-                    </button>
-                    <button className={classes.FrownBtn}>
-                        <FontAwesomeIcon icon={faFrown}/>
-                        <span>پاسخ خوب نبود</span>
-                    </button>
-                </div>
-            </div>
-        </div>
+        <>
+            {response && response.map((item)=>{
+                return (
+                    <div className={classes.ResponseList}>
+                        <div className={classes.MainBox}>
+                            <div className={classes.ResponseNav}>
+                                <RespondentInfo respondentName= {item.respondentName} respondentImg={item.respondentImg}/>
+                                <ResponseDetails hour={item.hour} date={item.date}/>
+                            </div>
+                            <div className={classes.ResponseDes}>
+                                {item.response}
+                            </div>
+                            <div className={classes.BtnResponse}>
+                                <button className={classes.GrinBtn}>
+                                    <FontAwesomeIcon icon={faGrin}/>
+                                    <span>پاسخ خوب بود</span>
+                                </button>
+                                <button className={classes.FrownBtn}>
+                                    <FontAwesomeIcon icon={faFrown}/>
+                                    <span>پاسخ خوب نبود</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                )
+            })}
+        </>
     )
 }
 

@@ -4,11 +4,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUserCircle } from '@fortawesome/free-solid-svg-icons'
 
 
-function RespondentInfo () {
+function RespondentInfo (props) {
+    const {respondentName,respondentImg} = props
     return(
         <div className={classes.Respondent}>
-            <FontAwesomeIcon icon={faUserCircle} className={classes.UserPic}/>
-            <span>مشکل Auth در ری اکت</span>
+            {respondentImg ? <img src={respondentImg} title="respondentImg"/>:<FontAwesomeIcon icon={faUserCircle} className={classes.UserPic}/>}
+            <span>{respondentName}</span>
         </div>
     )
 }

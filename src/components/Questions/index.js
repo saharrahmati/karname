@@ -18,7 +18,7 @@ function Questions () {
         })
     },[])
     const handleShowResponse = (id) => {
-        navigate('/response',{questionId : id})
+        navigate('/response',{ state: {id} })
     }
     return(
        <>

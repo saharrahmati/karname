@@ -4,16 +4,17 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGrin } from "@fortawesome/free-solid-svg-icons";
 import {faFrown} from "@fortawesome/free-solid-svg-icons";
 
-function QuestionDetails () {
+function QuestionDetails (props) {
+    const {hour,date} = props
     return(
         <div className={classes.Details}>
             <div className={classes.Clock}>
                 <span>ساعت : </span>
-                <span>16:48</span>
+                <span>{hour}</span>
             </div>
             <div className={classes.Date}>
                 <span>تاریخ : </span>
-                <span>۱۴۰۰/۲/۱۵</span>
+                <span>{date}</span>
             </div>
             <div className={classes.FaGrin}>
                 <FontAwesomeIcon icon={faGrin}/>

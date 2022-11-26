@@ -28,54 +28,54 @@
     "Response":[
         {
             "response":"بله بعد از تعریف کلید خارجی دستور php artisan migrate:fresh رو که میزنم خطایی که داخل تصویر هست رو نشون میده و در دیتابیس هم اصلا جدولی که کلید رو تعریف کردم ساخته نمیشه",
-            "respondentPic":"/assets/images/p1.jpeg",
-            "repondentName":"ترانه علیدوستی",
+            "respondentImg":"/assets/images/p1.jpeg",
+            "respondentName":"ترانه علیدوستی",
             "date":"۱۴۰۰/۲/۷",
             "hour":"۱۶:۴۸",
             "questionId":1
         },
         {
             "response":"توی خط ۱۵ و توی متد on چیزی که شما پاس دادی category_roks هست که به نظر میرسه خطای تایپی داشته باشه. اینو چک کردی؟",
-            "respondentPic":"/assets/images/p2.jpeg",
-            "repondentName":"سحر رحمتی",
+            "respondentImg":"/assets/images/p2.jpeg",
+            "respondentName":"سحر رحمتی",
             "date":"۱۴۰۱/۱/۱",
             "hour":"۱۳:۲۶",
             "questionId":1
         },
         {   "response":"با توجه به اسم فایل های migration ها این ترتیب رعایت نشده و به همین دلیل ارور میدهاسم فایل رو تغییر بدید تا جدول category_rocks بالاتر از جدول rocks قرار بگیره و مجدد تست کنید",
-            "respondentPic":"/assets/images/p3.jpeg",
-            "repondentName":"مونا برزویی",
+            "respondentImg":"/assets/images/p3.jpeg",
+            "respondentName":"مونا برزویی",
             "date":"۱۴۰۱/۳/۵",
             "hour":"۲۱:۰۰",
             "questionId":1
         },
         {
             "response":"سلام بستگی به خودت داره چقدر برای نمونه کار بخای وقت بذاری مثلا میتونی از dribbble.com ایده بگیری برای سایتات و بذاری توی گیت هابت برای روزمه",
-            "respondentPic":"/assets/images/p1.jpeg",
-            "repondentName":"سیروان خسروی",
+            "respondentImg":"/assets/images/p1.jpeg",
+            "respondentName":"سیروان خسروی",
             "date":"۱۴۰۰/۴/۷",
             "hour":"۱۲:۴۸",
             "questionId":2
         },
         {
             "response":"حداقل باید اپی بنویسی که با سمت سرور در ارتباط باشه",
-            "respondentPic":"/assets/images/p2.jpeg",
-            "repondentName":"همایون شجریان",
+            "respondentImg":"/assets/images/p2.jpeg",
+            "respondentName":"همایون شجریان",
             "date":"۱۴۰۱/۲/۱",
             "hour":"۱۷:۲۶",
             "questionId":2
         },
         {
             "response":"کلاس مورد نظر درست کار میکنه در واقع شما دارید میگید تگ h2 اگر از سایز sm که سایز 640 پیکسل هست بزرگ تر شد بیا و رنگ بکگراند اون رو قرمز کن",
-            "respondentPic":"/assets/images/p2.jpeg",
-            "repondentName":"صادق هدایت",
+            "respondentImg":"/assets/images/p2.jpeg",
+            "respondentName":"صادق هدایت",
             "date":"۱۴۰۱/۴/۱۲",
             "hour":"۱۵:۲۶",
             "questionId":3
         },
         {   "response":"sm کوچکترین نقطه شکسته ولی برای قبل sm هم شما باید یک class تعریف کنید !کدی که در تصویر هست و فرستادید اصلا مشکلی توش نیست چون شما گفتید block اونم حتما display رو مساوی block گذاشته !" ,
-            "respondentPic":"/assets/images/p3.jpeg",
-            "repondentName":"فردریش نیچه",
+            "respondentImg":"/assets/images/p3.jpeg",
+            "respondentName":"فردریش نیچه",
             "date":"۱۴۰۱/۶/۲۳",
             "hour":"۲۲:۰۰",
             "questionId":3
