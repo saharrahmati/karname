@@ -13,12 +13,11 @@ function Questions (props) {
     const handleShowResponse = (item) => {
         navigate('/response',{ state: {item} })
     }
-
     return(
        <>
          {questions && questions.map((item )=>{
             return (
-                <div className={classes.QuestionsList} key={item.questionId}>
+                <div className={classes.QuestionsList} key={item.id}>
                     <div className={classes.MainBox}>
                         <div className={classes.QuestionNav}>
                             <QuestionerInfo title={item.title} questioner={item.questioner} />

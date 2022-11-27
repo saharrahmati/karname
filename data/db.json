@@ -1,98 +1,110 @@
 {
-    "questions":[
-        {
-            "title":"خطای افزودن foreignKey در لاراول",
-            "description":"سلام به همکاران عزیز . ممنون میشم توی مشکلی که دارم بنده رو راهنمایی کنید . جدولی دارم به اسم rocks که باید به جدول دیگری به اسم categoryrocks متصل بشه و برای تعریف کلید خارجی از نام model مربوطه و در انتهای نام از id استفاده کردم ولی هنگام تعریف کلید خارجی به مشکل خوردم و خطایی که میده میگه که کل...",
-            "questioner":"/assets/images/p1.jpeg",
-            "date":"۱۴۰۰/۲/۷",
-            "hour":"۱۶:۴۸",
-            "questionId":1
-        },
-        {
-            "title":"نمونه کار برای react چی بزنم",
-            "description":"سلام من ری اکتو یاد گرفتم نمیخاد دوره هاتونو بزارید من میخوام برای رزومه و پرتولیفوی خودم نمونه کار داشته باشم یه تودو اپ دو زبانه زدم ولی میخوام که خیلی خوب باشه و بزرگ باشه تا هرکی دید بگه ماشالله",
-            "questioner":"/assets/images/p2.jpeg",
-            "date":"۱۴۰۱/۱/۱",
-            "hour":"۱۳:۲۶",
-            "questionId":2
-        },
-        {
-            "title":"مشکل در کارکرد کلاس های Tailwind در ReactJS",
-            "description":"کسی میدونه چرا حالت sm کار نمیکنه؟ breakpoint های دیگه مثل md, lg درست کار می کنند. به عنوان مثال تغییر بک گراند یک متن در حالت sm رو که وارد کنم:",
-            "questioner":"/assets/images/p3.jpeg",
-            "date":"۱۴۰۱/۳/۵",
-            "hour":"۲۱:۰۰",
-            "questionId":3
-        }
-    ],
-    "Response":[
-        {
-            "response":"بله بعد از تعریف کلید خارجی دستور php artisan migrate:fresh رو که میزنم خطایی که داخل تصویر هست رو نشون میده و در دیتابیس هم اصلا جدولی که کلید رو تعریف کردم ساخته نمیشه",
-            "respondentImg":"/assets/images/p1.jpeg",
-            "respondentName":"ترانه علیدوستی",
-            "date":"۱۴۰۰/۲/۷",
-            "hour":"۱۶:۴۸",
-            "questionId":1,
-            "grinEmoji":4,
-            "frownEmoji":0
-        },
-        {
-            "response":"توی خط ۱۵ و توی متد on چیزی که شما پاس دادی category_roks هست که به نظر میرسه خطای تایپی داشته باشه. اینو چک کردی؟",
-            "respondentImg":"/assets/images/p2.jpeg",
-            "respondentName":"سحر رحمتی",
-            "date":"۱۴۰۱/۱/۱",
-            "hour":"۱۳:۲۶",
-            "questionId":1,
-            "grinEmoji":5,
-            "frownEmoji":0
-        },
-        {   "response":"با توجه به اسم فایل های migration ها این ترتیب رعایت نشده و به همین دلیل ارور میدهاسم فایل رو تغییر بدید تا جدول category_rocks بالاتر از جدول rocks قرار بگیره و مجدد تست کنید",
-            "respondentImg":"/assets/images/p3.jpeg",
-            "respondentName":"مونا برزویی",
-            "date":"۱۴۰۱/۳/۵",
-            "hour":"۲۱:۰۰",
-            "questionId":1,
-            "grinEmoji":6,
-            "frownEmoji":0
-        },
-        {
-            "response":"سلام بستگی به خودت داره چقدر برای نمونه کار بخای وقت بذاری مثلا میتونی از dribbble.com ایده بگیری برای سایتات و بذاری توی گیت هابت برای روزمه",
-            "respondentImg":"/assets/images/p1.jpeg",
-            "respondentName":"سیروان خسروی",
-            "date":"۱۴۰۰/۴/۷",
-            "hour":"۱۲:۴۸",
-            "questionId":2,
-            "grinEmoji":7,
-            "frownEmoji":0
-        },
-        {
-            "response":"حداقل باید اپی بنویسی که با سمت سرور در ارتباط باشه",
-            "respondentImg":"/assets/images/p2.jpeg",
-            "respondentName":"همایون شجریان",
-            "date":"۱۴۰۱/۲/۱",
-            "hour":"۱۷:۲۶",
-            "questionId":2,
-            "grinEmoji":1,
-            "frownEmoji":0
-        },
-        {
-            "response":"کلاس مورد نظر درست کار میکنه در واقع شما دارید میگید تگ h2 اگر از سایز sm که سایز 640 پیکسل هست بزرگ تر شد بیا و رنگ بکگراند اون رو قرمز کن",
-            "respondentImg":"/assets/images/p2.jpeg",
-            "respondentName":"صادق هدایت",
-            "date":"۱۴۰۱/۴/۱۲",
-            "hour":"۱۵:۲۶",
-            "questionId":3,
-            "grinEmoji":2,
-            "frownEmoji":0
-        },
-        {   "response":"sm کوچکترین نقطه شکسته ولی برای قبل sm هم شما باید یک class تعریف کنید !کدی که در تصویر هست و فرستادید اصلا مشکلی توش نیست چون شما گفتید block اونم حتما display رو مساوی block گذاشته !" ,
-            "respondentImg":"/assets/images/p3.jpeg",
-            "respondentName":"فردریش نیچه",
-            "date":"۱۴۰۱/۶/۲۳",
-            "hour":"۲۲:۰۰",
-            "questionId":3,
-            "grinEmoji":3,
-            "frownEmoji":0
-        }
-    ]
+  "questions": [
+    {
+      "id": 1,
+      "title": "خطای افزودن foreignKey در لاراول",
+      "description": "سلام به همکاران عزیز . ممنون میشم توی مشکلی که دارم بنده رو راهنمایی کنید . جدولی دارم به اسم rocks که باید به جدول دیگری به اسم categoryrocks متصل بشه و برای تعریف کلید خارجی از نام model مربوطه و در انتهای نام از id استفاده کردم ولی هنگام تعریف کلید خارجی به مشکل خوردم و خطایی که میده میگه که کل...",
+      "questioner": "/assets/images/p1.jpeg",
+      "date": "۱۴۰۰/۲/۷",
+      "hour": "۱۶:۴۸",
+      "questionId": 1
+    },
+    {
+      "id": 2,
+      "title": "نمونه کار برای react چی بزنم",
+      "description": "سلام من ری اکتو یاد گرفتم نمیخاد دوره هاتونو بزارید من میخوام برای رزومه و پرتولیفوی خودم نمونه کار داشته باشم یه تودو اپ دو زبانه زدم ولی میخوام که خیلی خوب باشه و بزرگ باشه تا هرکی دید بگه ماشالله",
+      "questioner": "/assets/images/p2.jpeg",
+      "date": "۱۴۰۱/۱/۱",
+      "hour": "۱۳:۲۶",
+      "questionId": 2
+    },
+    {
+      "id": 3,
+      "title": "مشکل در کارکرد کلاس های Tailwind در ReactJS",
+      "description": "کسی میدونه چرا حالت sm کار نمیکنه؟ breakpoint های دیگه مثل md, lg درست کار می کنند. به عنوان مثال تغییر بک گراند یک متن در حالت sm رو که وارد کنم:",
+      "questioner": "/assets/images/p3.jpeg",
+      "date": "۱۴۰۱/۳/۵",
+      "hour": "۲۱:۰۰",
+      "questionId": 3
+    }
+  ],
+  "Response": [
+    {
+      "id": 1,
+      "response": "بله بعد از تعریف کلید خارجی دستور php artisan migrate:fresh رو که میزنم خطایی که داخل تصویر هست رو نشون میده و در دیتابیس هم اصلا جدولی که کلید رو تعریف کردم ساخته نمیشه",
+      "respondentImg": "/assets/images/p1.jpeg",
+      "respondentName": "ترانه علیدوستی",
+      "date": "۱۴۰۰/۲/۷",
+      "hour": "۱۶:۴۸",
+      "questionId": 1,
+      "grinEmoji": 4,
+      "frownEmoji": 0
+    },
+    {
+      "id": 2,
+      "response": "توی خط ۱۵ و توی متد on چیزی که شما پاس دادی category_roks هست که به نظر میرسه خطای تایپی داشته باشه. اینو چک کردی؟",
+      "respondentImg": "/assets/images/p2.jpeg",
+      "respondentName": "سحر رحمتی",
+      "date": "۱۴۰۱/۱/۱",
+      "hour": "۱۳:۲۶",
+      "questionId": 1,
+      "grinEmoji": 5,
+      "frownEmoji": 0
+    },
+    {
+      "id": 3,
+      "response": "با توجه به اسم فایل های migration ها این ترتیب رعایت نشده و به همین دلیل ارور میدهاسم فایل رو تغییر بدید تا جدول category_rocks بالاتر از جدول rocks قرار بگیره و مجدد تست کنید",
+      "respondentImg": "/assets/images/p3.jpeg",
+      "respondentName": "مونا برزویی",
+      "date": "۱۴۰۱/۳/۵",
+      "hour": "۲۱:۰۰",
+      "questionId": 1,
+      "grinEmoji": 6,
+      "frownEmoji": 0
+    },
+    {
+      "id": 4,
+      "response": "سلام بستگی به خودت داره چقدر برای نمونه کار بخای وقت بذاری مثلا میتونی از dribbble.com ایده بگیری برای سایتات و بذاری توی گیت هابت برای روزمه",
+      "respondentImg": "/assets/images/p1.jpeg",
+      "respondentName": "سیروان خسروی",
+      "date": "۱۴۰۰/۴/۷",
+      "hour": "۱۲:۴۸",
+      "questionId": 2,
+      "grinEmoji": 7,
+      "frownEmoji": 0
+    },
+    {
+      "id": 5,
+      "response": "حداقل باید اپی بنویسی که با سمت سرور در ارتباط باشه",
+      "respondentImg": "/assets/images/p2.jpeg",
+      "respondentName": "همایون شجریان",
+      "date": "۱۴۰۱/۲/۱",
+      "hour": "۱۷:۲۶",
+      "questionId": 2,
+      "grinEmoji": 1,
+      "frownEmoji": 0
+    },
+    {
+      "id": 6,
+      "response": "کلاس مورد نظر درست کار میکنه در واقع شما دارید میگید تگ h2 اگر از سایز sm که سایز 640 پیکسل هست بزرگ تر شد بیا و رنگ بکگراند اون رو قرمز کن",
+      "respondentImg": "/assets/images/p2.jpeg",
+      "respondentName": "صادق هدایت",
+      "date": "۱۴۰۱/۴/۱۲",
+      "hour": "۱۵:۲۶",
+      "questionId": 3,
+      "grinEmoji": 2,
+      "frownEmoji": 0
+    },
+    {
+      "id": 7,
+      "response": "sm کوچکترین نقطه شکسته ولی برای قبل sm هم شما باید یک class تعریف کنید !کدی که در تصویر هست و فرستادید اصلا مشکلی توش نیست چون شما گفتید block اونم حتما display رو مساوی block گذاشته !",
+      "respondentImg": "/assets/images/p3.jpeg",
+      "respondentName": "فردریش نیچه",
+      "date": "۱۴۰۱/۶/۲۳",
+      "hour": "۲۲:۰۰",
+      "questionId": 3,
+      "grinEmoji": 3,
+      "frownEmoji": 0
+    }
+  ]
 }

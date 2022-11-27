@@ -6,12 +6,12 @@ import { faUserCircle } from '@fortawesome/free-solid-svg-icons'
 import { faPlus } from '@fortawesome/free-solid-svg-icons'
 
 
-function NavBar() {
+function NavBar(props) {
     return (
         <div className={classes.NavBar}>
             <h1>لیست سوالات </h1>
             <div className={classes.NavInfo}>
-                <button className={classes.AddQuestion}>
+                <button className={classes.AddQuestion} onClick={props.showAddQuestionModal}>
                     <FontAwesomeIcon icon={faPlus} />
                     <span>سوالات جدید</span>
                 </button>

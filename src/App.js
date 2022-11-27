@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useDispatch } from 'react-redux';
 import Response from './components/Response';
 import './App.css';
+import AddQuestion from './components/Questions/AddQuestion';
 
 
 const baseUrl = 'http://localhost:3001/Response'
@@ -14,6 +15,7 @@ const baseUrl2= 'http://localhost:3001/questions'
 function App() {
   const [response,setResponse] = useState(null)
   const [questions,setQuestions]= useState(null)
+  const [openModal,setOpenModal] = useState(false)
 
   const dispatch = useDispatch()
 
@@ -28,14 +30,22 @@ function App() {
       setQuestions(response.data)
     })
   }
+  const showAddQuestionModal = () => {
+    setOpenModal(true)
+  }
+  const closeModal = () => {
+    setOpenModal(false)
+  }
+
   useEffect(()=>{
       getQuestion()
       getResponse()
   },[])
-
+  console.log(response)
   return (
-    <div className="App">
-      <NavBar />
+    <div className={`App ${openModal}? App2 : ''`}>
+      <NavBar showAddQuestionModal={showAddQuestionModal} />
+      {openModal ? <AddQuestion getQuestion={getQuestion} closeModal={closeModal} setOpenModal={setOpenModal}/> : null}
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Questions questions={questions}/>}></Route>

@@ -11,9 +11,9 @@ function ResponseList (props) {
     const {response} = props
     return(
         <>
-            {response && response.map((item,index)=>{
+            {response && response.map((item)=>{
                 return (
-                    <div className={classes.ResponseList} key={index}>
+                    <div className={classes.ResponseList} key={item.id}>
                         <div className={classes.MainBox}>
                             <div className={classes.ResponseNav}>
                                 <RespondentInfo respondentName= {item.respondentName} respondentImg={item.respondentImg}/>

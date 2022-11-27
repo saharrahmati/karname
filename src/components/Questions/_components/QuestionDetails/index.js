@@ -8,13 +8,15 @@ function QuestionDetails (props) {
     const {question,response,FilterResponse} = props
 
     const getResponseLength = () => {
-        const filterData= response && response.filter((item)=> item.questionId === question.questionId).length
+        const filterData= response.filter((item)=> item.questionId === question.questionId).length
         setResponseLength(filterData)
 
     }
     useEffect(()=>{
-        getResponseLength() 
-    },[])
+        if(response){
+            getResponseLength() 
+        }
+    },[response])
 
     return(
         <div className={classes.Details}>

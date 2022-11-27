@@ -1,0 +1,67 @@
+.AddQuestion {
+    position: absolute;
+    margin:auto;
+    width: 700px;
+    height: 400px;
+    right: 0;
+    left: 0;
+    top: 10%;
+    background: #F9F9F9;
+    box-shadow: 0px 3px 8px -1px rgba(50, 50, 71, 0.05), 0px 0px 1px rgba(12, 26, 75, 0.24);
+    border-radius: 8px;
+    z-index: 1000;
+    border: 1px solid red;
+}
+.Title {
+    display: flex;
+    align-items: center;
+    background: white;
+    justify-content: space-between;
+    opacity: 0.7;
+    box-shadow: 0px 3px 8px -1px rgba(50, 50, 71, 0.05), 0px 0px 1px rgba(12, 26, 75, 0.24);
+    padding: 0 20px;
+}
+.Title h2 {
+   font-size: 16px;
+}
+.QuestionForm {
+    text-align: right;
+    padding: 20px;
+}
+.QuestionForm input{
+    height: 44px;
+}
+.QuestionForm textarea ,input {
+    background: white;
+    border: 1px solid #EEEEEE;
+    border-radius: 6px;
+    width: 97%;
+    margin: 14px 0;
+    padding: 10px;
+    font-family: Yekan;
+}
+.QuestionForm textarea:focus-visible ,input:focus-visible{
+    outline:cadetblue;
+}
+.SubmitBtn {
+    background: #27AE60;
+    border-radius: 6px;
+    font-family: Yekan;
+    color: white;
+    padding: 8px 21px;
+    border: 0 ;
+    margin: 0 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.BtnGroup {
+    text-align: left;
+}
+.CancelBtn {
+    border: 0 ;
+    color: #27AE60;
+    background-color: transparent;
+    font-size: 14px;
+    font-family: Yekan;
+    cursor: pointer;
+}

@@ -18,9 +18,11 @@ function Response (props){
     }
     
     useEffect(()=>{
-        getResponse()
-    },[])
-
+        if(props.response){
+            getResponse()
+        }
+    },[props.response])
+    
     return(
         <div className={classes.MainQuestion}>
             <div className={classes.MainBox}>
