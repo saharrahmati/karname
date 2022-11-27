@@ -37,7 +37,7 @@ function Response (props){
             </div>
             <h2>پاسخ ها</h2>
            <ResponseList response={FilterResponse}/>
-           <AddResponse response={FilterResponse} getResponse={props.getResponse}/>
+           <AddResponse getResponse={props.getResponse}/>
         </div>
     )
 }

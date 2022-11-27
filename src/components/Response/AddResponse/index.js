@@ -1,26 +1,19 @@
 import React ,{useEffect, useState} from "react"
 import classes from './index.module.css'
 import axios from "axios"
+import {useLocation} from 'react-router-dom';
+
 
 function AddResponse (props) {
     const [responseList, setResponseList] = useState("")
-    const [questionId,setQuestionId] = useState("")
-    const {response} = props
-    
+ 
+    const location = useLocation();
+    const {questionId}= location.state.item
+
     const handelChange = (e) => {
         const value = e.target.value;
         setResponseList(value)
     }
-    const getQuestionId = () =>{
-        response.map((item)=>{
-            setQuestionId(item.questionId)
-        })
-    }
-    useEffect(()=>{
-        if(response){
-            getQuestionId()
-        }
-    },[response])
     const handlePostQuestion = () => {
         const current = new Date();
         const date = `${current.getDate()}/${current.getMonth()+1}/${current.getFullYear()}`;

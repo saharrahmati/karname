@@ -26,7 +26,8 @@ function AddQuestion (props) {
             title: state.title,
             description: state.description,
             date: date,
-            hour:hour
+            hour:hour,
+            questionId:Math.random()+1
           });
         axios.post('http://localhost:3001/questions',data,{headers:{"Content-Type" : "application/json"}})
         .then((res)=>{
