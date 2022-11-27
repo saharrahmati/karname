@@ -26,14 +26,6 @@
       "date": "۱۴۰۱/۳/۵",
       "hour": "۲۱:۰۰",
       "questionId": 3
-    },
-    {
-      "title": "سحز",
-      "description": "سحر",
-      "date": "27/11/2022",
-      "hour": "16:11",
-      "questionId": 1.975262041103019,
-      "id": 4
     }
   ],
   "Response": [
@@ -45,8 +37,8 @@
       "date": "۱۴۰۰/۲/۷",
       "hour": "۱۶:۴۸",
       "questionId": 1,
-      "grinEmoji": 4,
-      "frownEmoji": 0
+      "goodCount": 0,
+      "badCount": 0
     },
     {
       "id": 2,
@@ -56,8 +48,8 @@
       "date": "۱۴۰۱/۱/۱",
       "hour": "۱۳:۲۶",
       "questionId": 1,
-      "grinEmoji": 5,
-      "frownEmoji": 0
+      "goodCount": 0,
+      "badCount": 0
     },
     {
       "id": 3,
@@ -66,9 +58,7 @@
       "respondentName": "مونا برزویی",
       "date": "۱۴۰۱/۳/۵",
       "hour": "۲۱:۰۰",
-      "questionId": 1,
-      "grinEmoji": 6,
-      "frownEmoji": 0
+      "questionId": 1
     },
     {
       "id": 4,
@@ -77,9 +67,7 @@
       "respondentName": "سیروان خسروی",
       "date": "۱۴۰۰/۴/۷",
       "hour": "۱۲:۴۸",
-      "questionId": 2,
-      "grinEmoji": 7,
-      "frownEmoji": 0
+      "questionId": 2
     },
     {
       "id": 5,
@@ -88,9 +76,7 @@
       "respondentName": "همایون شجریان",
       "date": "۱۴۰۱/۲/۱",
       "hour": "۱۷:۲۶",
-      "questionId": 2,
-      "grinEmoji": 1,
-      "frownEmoji": 0
+      "questionId": 2
     },
     {
       "id": 6,
@@ -99,9 +85,7 @@
       "respondentName": "صادق هدایت",
       "date": "۱۴۰۱/۴/۱۲",
       "hour": "۱۵:۲۶",
-      "questionId": 3,
-      "grinEmoji": 2,
-      "frownEmoji": 0
+      "questionId": 3
     },
     {
       "id": 7,
@@ -110,25 +94,7 @@
       "respondentName": "فردریش نیچه",
       "date": "۱۴۰۱/۶/۲۳",
       "hour": "۲۲:۰۰",
-      "questionId": 3,
-      "grinEmoji": 3,
-      "frownEmoji": 0
-    },
-    {
-      "respondentName": "نام پاسخ دهنده",
-      "response": "",
-      "date": "27/11/2022",
-      "hour": "16:16",
-      "questionId": 1.975262041103019,
-      "id": 8
-    },
-    {
-      "respondentName": "نام پاسخ دهنده",
-      "response": "www",
-      "date": "27/11/2022",
-      "hour": "16:16",
-      "questionId": 1.975262041103019,
-      "id": 9
+      "questionId": 3
     }
   ]
 }

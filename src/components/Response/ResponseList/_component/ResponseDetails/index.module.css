@@ -21,6 +21,7 @@
 }
 .FaGrin svg{
     color: #66CB9F;
+    margin-left: 3px;
 }
 .FaGrin span:last-child {
     color: #777777;
@@ -31,6 +32,7 @@
 }
 .FaFrown svg{
     color: #F16063;
+    margin-left: 3px;
 }
 .FaFrown span:last-child {
     color: #777777;

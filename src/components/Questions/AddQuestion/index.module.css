@@ -65,3 +65,8 @@
     font-family: Yekan;
     cursor: pointer;
 }
+@media screen and (max-width: 650px) {
+    .QuestionForm textarea ,input {
+        padding: 0;
+    }
+}

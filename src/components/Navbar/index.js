@@ -4,12 +4,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCaretDown } from '@fortawesome/free-solid-svg-icons'
 import { faUserCircle } from '@fortawesome/free-solid-svg-icons'
 import { faPlus } from '@fortawesome/free-solid-svg-icons'
+import {useLocation} from 'react-router-dom';
 
 
 function NavBar(props) {
+    const location = useLocation()
     return (
         <div className={classes.NavBar}>
-            <h1>لیست سوالات </h1>
+            <h1>{location.pathname === '/response' ?'جزییات سوال' :'لیست سوالات'}</h1>
             <div className={classes.NavInfo}>
                 <button className={classes.AddQuestion} onClick={props.showAddQuestionModal}>
                     <FontAwesomeIcon icon={faPlus} />

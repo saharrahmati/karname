@@ -41,9 +41,9 @@ function App() {
   return (
     <div className={classes.App}>
       {openModal? <div className={classes.BackDrop}></div>:null}
-      <NavBar showAddQuestionModal={showAddQuestionModal} />
       {openModal ? <AddQuestion getQuestion={getQuestion} closeModal={closeModal} setOpenModal={setOpenModal}/> : null}
       <BrowserRouter>
+        <NavBar showAddQuestionModal={showAddQuestionModal} />
         <Routes>
           <Route path='/' element={<Questions questions={questions} response={response}/>}></Route>
           <Route path='/response' element={<Response response={response} getResponse={getResponse} />}></Route>
