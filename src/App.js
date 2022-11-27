@@ -5,7 +5,7 @@ import Questions from './components/Questions';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useDispatch } from 'react-redux';
 import Response from './components/Response';
-import './App.css';
+import classes from './App.module.css';
 import AddQuestion from './components/Questions/AddQuestion';
 
 
@@ -41,9 +41,9 @@ function App() {
       getQuestion()
       getResponse()
   },[])
-  console.log(response)
   return (
-    <div className={`App ${openModal}? App2 : ''`}>
+    <div className={classes.App}>
+      {openModal? <div className={classes.BackDrop}></div>:null}
       <NavBar showAddQuestionModal={showAddQuestionModal} />
       {openModal ? <AddQuestion getQuestion={getQuestion} closeModal={closeModal} setOpenModal={setOpenModal}/> : null}
       <BrowserRouter>
