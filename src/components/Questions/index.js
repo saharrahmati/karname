@@ -3,7 +3,6 @@ import classes from './index.module.css'
 import QuestionDetails from './_components/QuestionDetails'
 import QuestionerInfo from './_components/QuestionerInfo'
 import { useNavigate} from "react-router-dom";
-import {connect} from 'react-redux'
 
 
 function Questions (props) {
@@ -37,10 +36,5 @@ function Questions (props) {
         
     )
 }
-const mapStateToProps = (state) => {
-    return {
-        response : state
-    }
-}
 
-export default connect(mapStateToProps)(Questions)
+export default Questions

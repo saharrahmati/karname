@@ -1,6 +1,7 @@
 import React , {useEffect,useState} from "react";
 import QuestionerInfo from "../Questions/_components/QuestionerInfo";
 import QuestionDetails from "../Questions/_components/QuestionDetails";
+import AddResponse from "./AddResponse"
 import classes from './index.module.css'
 import ResponseList from "./ResponseList";
 import {useLocation} from 'react-router-dom';
@@ -36,6 +37,7 @@ function Response (props){
             </div>
             <h2>پاسخ ها</h2>
            <ResponseList response={FilterResponse}/>
+           <AddResponse response={FilterResponse} getResponse={props.getResponse}/>
         </div>
     )
 }

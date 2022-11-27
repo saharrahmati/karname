@@ -1,0 +1,27 @@
+.AddResponse {
+    text-align: right;
+}
+.AddResponse textarea{
+    border: 1px solid #EEEEEE;
+    border-radius: 6px;
+    width: 98%;
+    padding: 10px;
+    font-family: Yekan;
+}
+.AddResponse textarea:focus-visible{
+    outline:cadetblue;
+}
+.AddResponse button{
+    background: #27AE60;
+    border-radius: 6px;
+    border: 0;
+    color: white;
+    font-family: Yekan;
+    padding: 8px 71px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.ErrorText {
+    font-size: 10px;
+    color: #F16063;
+}

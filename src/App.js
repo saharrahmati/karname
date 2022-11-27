@@ -3,7 +3,6 @@ import axios from 'axios';
 import NavBar from './components/Navbar';
 import Questions from './components/Questions';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { useDispatch } from 'react-redux';
 import Response from './components/Response';
 import classes from './App.module.css';
 import AddQuestion from './components/Questions/AddQuestion';
@@ -17,12 +16,10 @@ function App() {
   const [questions,setQuestions]= useState(null)
   const [openModal,setOpenModal] = useState(false)
 
-  const dispatch = useDispatch()
 
   const getResponse = () => {
       axios.get(baseUrl).then((response)=>{
           setResponse(response.data)
-          dispatch({type:'SET_RESPONSE', payload:response.data})
       })
   }
   const getQuestion = () => {
@@ -48,8 +45,8 @@ function App() {
       {openModal ? <AddQuestion getQuestion={getQuestion} closeModal={closeModal} setOpenModal={setOpenModal}/> : null}
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Questions questions={questions}/>}></Route>
-          <Route path='/response' element={<Response response={response} />}></Route>
+          <Route path='/' element={<Questions questions={questions} response={response}/>}></Route>
+          <Route path='/response' element={<Response response={response} getResponse={getResponse} />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
