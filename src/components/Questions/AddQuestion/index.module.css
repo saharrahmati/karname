@@ -1,8 +1,7 @@
 .AddQuestion {
     position: absolute;
     margin:auto;
-    width: 700px;
-    height: 400px;
+    width: 60%;
     right: 0;
     left: 0;
     top: 10%;
@@ -17,9 +16,9 @@
     align-items: center;
     background: white;
     justify-content: space-between;
-    opacity: 0.7;
     box-shadow: 0px 3px 8px -1px rgba(50, 50, 71, 0.05), 0px 0px 1px rgba(12, 26, 75, 0.24);
     padding: 0 20px;
+    border-radius: 8px;
 }
 .Title h2 {
    font-size: 16px;
@@ -56,6 +55,7 @@
 }
 .BtnGroup {
     text-align: left;
+    padding-bottom: 20px;
 }
 .CancelBtn {
     border: 0 ;
